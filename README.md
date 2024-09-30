@@ -1,6 +1,11 @@
 # Getting Started with Create React App
 # output
 ![image](https://github.com/user-attachments/assets/64d62e84-8d21-4981-af0d-01513fb8f86e)
+# Description
+Stylish React Counter Application
+This is a simple React-based counter application that allows users to increment and decrement a displayed number. The application features attractive styling, including a custom background image and responsive buttons with hover effects.
+
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
