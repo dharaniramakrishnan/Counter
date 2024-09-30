@@ -1,0 +1,64 @@
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('./counter.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 0 20px;
+  }
+  
+  .counter-container h1 {
+    font-size: 2.5rem;
+    color: #fff; /* Set the text color to white for better contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add text shadow for readability */
+  }
+  
+  .counter-display {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    color: white;
+    font-size: 3rem;
+    width: 120px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .counter-button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .increment {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .increment:hover {
+    background-color: #218838;
+  }
+  
+  .decrement {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .decrement:hover {
+    background-color: #c82333;
+  }
+  
